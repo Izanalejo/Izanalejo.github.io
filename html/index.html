@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Desarrollador Web</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio"><i class="fas fa-code"></i> MiPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-3 fw-bold mb-4">Hola, soy<br>Izan Alejo Pérez</h1>
+                    <p class="lead mb-4">Desarrollador Web especializado en crear experiencias digitales modernas y funcionales</p>
+                    <a href="#contacto" class="btn btn-custom btn-lg me-2">Contáctame</a>
+                    <a href="#proyectos" class="btn btn-outline-light btn-lg">Ver Proyectos</a>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+                        <i class="fas fa-laptop-code" style="font-size: 200px; opacity: 0.9;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <p class="lead">Soy un estudiante de Desarrollo en Aplicaciones Web apasionado en crear soluciones digitales innovadoras. Me especializo en desarrollo frontend y backend, con un enfoque en crear aplicaciones web escalables y de alto rendimiento.</p>
+                    <p>Mi objetivo es transformar ideas en productos digitales que generen impacto real en los usuarios y los negocios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Habilidades</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-code skill-icon mb-3"></i>
+                        <h4>Frontend</h4>
+                        <p class="text-muted">HTML5, CSS3, React, Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-server skill-icon mb-3"></i>
+                        <h4>Backend</h4>
+                        <p class="text-muted">Java, JavaScript, PHP</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-database skill-icon mb-3"></i>
+                        <h4>Bases de datos</h4>
+                        <p class="text-muted">MySQL, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-mobile-alt skill-icon mb-3"></i>
+                        <h4>Frameworks</h4>
+                        <p class="text-muted">Bootstrap, Laravel, Angular</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-tools skill-icon mb-3"></i>
+                        <h4>DevOps</h4>
+                        <p class="text-muted">Git, Docker</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card skill-card h-100 text-center p-4">
+                        <i class="fas fa-paint-brush skill-icon mb-3"></i>
+                        <h4>Diseño</h4>
+                        <p class="text-muted">UI/UX, Figma, Responsive Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <div class="project-img">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Platform</h5>
+                            <p class="card-text">Plataforma completa de comercio electrónico con carrito de compras, pagos y gestión de inventario.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-success">MongoDB</span>
+                            </div>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <div class="project-img">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Task Manager App</h5>
+                            <p class="card-text">Aplicación de gestión de tareas con colaboración en tiempo real y notificaciones.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">Vue.js</span>
+                                <span class="badge bg-secondary">Firebase</span>
+                                <span class="badge bg-info">PWA</span>
+                            </div>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card">
+                        <div class="project-img">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Analytics Dashboard</h5>
+                            <p class="card-text">Dashboard interactivo para visualización de datos y métricas empresariales en tiempo real.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary">React</span>
+                                <span class="badge bg-secondary">D3.js</span>
+                                <span class="badge bg-warning">API REST</span>
+                            </div>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Contacto</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="contact-info h-100">
+                                <h4 class="mb-4">Información de Contacto</h4>
+                                <div class="mb-3">
+                                    <i class="fas fa-envelope me-2"></i>
+                                    <span>Izanap2006@gmail.com</span>
+                                </div>
+                                <div class="mb-3">
+                                    <i class="fas fa-phone me-2"></i>
+                                    <span>+34 620 489 231</span>
+                                </div>
+                                <div class="mb-4">
+                                    <i class="fas fa-map-marker-alt me-2"></i>
+                                    <span>Barcelona, España</span>
+                                </div>
+                                <div class="social-links">
+                                    <a href="https://github.com/Izanalejo"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/izan-alejo-p%C3%A9rez-856854365/"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-0 shadow">
+                                <div class="card-body p-4">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="Nombre">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0"> Izan Alejo Pérez </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
